@@ -187,7 +187,7 @@ body * {
     box-shadow: 0 -1px 10px 3px rgb(53 223 223);
     padding: 15px var(--standard-spacing);
     /* overflow: hidden; */
-    /* justify-content: space-around; */
+    justify-content: space-around;
     margin-right: 50px;
 }
 
@@ -201,10 +201,11 @@ body * {
 }
 
 .top-right-nav {
-    width: 100%;
-    display: flex;
+    /* width: 100%; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
 }
 
 .top-right-nav ul {
