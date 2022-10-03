@@ -8,68 +8,121 @@
     <!-- insert favicon  -->
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Cyberpunk Landing Page</title>
 </head>
 
 <body>
     <!-- video 1: city background -->
-    <div class="video-wrapper">
-        <video autoplay muted loop class="myVideo1">
+    <div class="video-container">
+        <video autoplay muted loop class="video">
             <source src="assets/Cyberpunk-City.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
+        <!-- first main -->
+        <main class="first-main">
+            <nav class="top-nav">
+                <div class="top-left-nav">
+                    <a href="/">
+                        <img src="https://66.media.tumblr.com/f218d4ce8e7e5c02e38140515f3e7670/aa0acc77898d1341-4e/s400x600/6fba37ff1df8658a334d1e9763227f00179ec226.png"
+                            alt="cyberpunk logo" id="header-img">
+                    </a>
+                </div>
+                <div class="top-right-nav">
+                    <ul class="std-font">
+                        <a href="#features" class='nav-link'>
+                            <li>Features</li>
+                        </a>
+                        <a href="#gallery" class='nav-link'>
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#hardware" class='nav-link'>
+                            <li>Hardware</li>
+                        </a>
+                        <a href="#order-now" class='nav-link'>
+                            <li>Shop</li>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+            <div class="bottom-nav flex">
+                <div class="bottom-nav-left flex">
+                    <div class="intro-logo-container">
+                        <img src="https://66.media.tumblr.com/f70ec5aaa861d088ec7e72f3efe791ba/aa0acc77898d1341-d7/s540x810/b8dcf31ae26bfb049644f184048d0803d6bd4a1b.png"
+                            alt="cyberpunk logo" class="intro-logo">
+                    </div>
+                    <div class="intro-h1-container flex ">
+                        <h1 class="std-font">In a dystopian future cybernetic body modifications are the only way to
+                            keep up
+                            to date
+                        </h1>
+                    </div>
+                </div>
+                <div class="bottom-nav-right flex">
+                    <iframe src="https://www.youtube.com/embed/LembwKDo1Dk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
+                        class="trailer-frame iframes" id='video'></iframe>
+                    <div class="intro-button">
+                        <a href="#order-now">
+                            <button class='order-botton'>PRE-ORDER NOW</button>
+                        </a>
+                        <h2>Available on september 17<sup>th</sup> 2020</h2>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
 
-    <!-- first main -->
-    <main class="first-main">
-        <nav class="top-nav">
-            <div class="top-left-nav">
-                <a href="/">
-                    <img src="https://66.media.tumblr.com/f218d4ce8e7e5c02e38140515f3e7670/aa0acc77898d1341-4e/s400x600/6fba37ff1df8658a334d1e9763227f00179ec226.png"
-                        alt="cyberpunk logo" id="header-img">
-                </a>
-            </div>
-            <div class="top-right-nav">
-                <ul>
-                    <a href="#features" class='nav-link'>
-                        <li>Features</li>
-                    </a>
-                    <a href="#gallery" class='nav-link'>
-                        <li>Gallery</li>
-                    </a>
-                    <a href="#hardware" class='nav-link'>
-                        <li>Hardware</li>
-                    </a>
-                    <a href="#order-now" class='nav-link'>
-                        <li>Shop</li>
-                    </a>
-                </ul>
-            </div>
-        </nav>
-        <div class="bottom-nav flex">
-            <div class="bottom-nav-left flex">
-                <div class="intro-logo-container">
-                    <img src="https://66.media.tumblr.com/f70ec5aaa861d088ec7e72f3efe791ba/aa0acc77898d1341-d7/s540x810/b8dcf31ae26bfb049644f184048d0803d6bd4a1b.png"
-                        alt="cyberpunk logo" class="intro-logo">
+
+    <!-- second main -->
+
+    <main class="second-main" id="features">
+        <div class="features-logo">
+            <img src="assets/favicon.png" alt="">
+        </div>
+        <div class="features-inner-container">
+            <div class="features-filter-container">
+                <div class="features-card">
+                    <div class="title-bg">
+                        <h1 class="title-h1-feat">DIVE INTO <span>NIGHT CITY</span></h1>
+                    </div>
+                    <div class="description d1">
+                        <p>Cyberpunk 2077 takes place in Night City, a giagantic open world merged in chaos that
+                            you
+                            can fully explore.</p><br>
+                    </div>
                 </div>
-                <div class="intro-h1-container flex">
-                    <h1>In a dystopian future cybernetic body modifications are the only way to keep up to date
+                <div class="features-card t2">
+                    <div class="title-bg bg2">
+                        <h1 class="title-h1-feat title2">PLAY AS AN <span>OUTLAW MERCENARY</span></h1>
+                    </div>
+                    <div class="description d2">
+                        <p>Play as an outlaw mercenary. Custumize your character's abilities and play modes,
+                            allowing you to be a stealth
+                            killer or a solo man army shooting your way throughout the game.
+                        </p>
+                    </div>
+                </div>
+                <div class="features-bottom-container">
+                    <h1 class="bottom-feat-h1">Are you ready for an update ? <span class="blinky feat-blinky"></span>
                     </h1>
                 </div>
             </div>
-            <div class="bottom-nav-right flex">
-                <iframe src="https://www.youtube.com/embed/LembwKDo1Dk" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen
-                    class="trailer-frame iframes" id='video'></iframe>
-            </div>
         </div>
     </main>
-    <!-- second main -->
-    <main>
-
-    </main>
+    <!-- video 2: samurai background -->
+    <div class="video-container">
+        <video autoplay muted loop class="video">
+            <source src="assets/Samurai.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="test">
+            <div>
+                <img src="assets/favicon.png" alt="">
+            </div>
+        </div>
+    </div>
     <!-- third main -->
-    <main>
+    <main class="second-main">
 
     </main>
     <!-- forth main -->
@@ -77,8 +130,26 @@
 
     </main>
     <!-- footer -->
-    <footer>
+    <footer id="foot">
+        <div class='foot-inner-container'>
+            <div class="summary" style="min-height: 50vh;">
+                This is a cyberpunk themed landing page that I've always dreamed to do! There are much improvements
+                needed such as adding responsiveness and smoothness to the design and animation. There are still many
+                errors in the design due to my limited understanding on css. Due to time, I have decided not to dwell
+                too much time on this single project, but I will definitely come back and improve it further.
+            </div>
+        </div>
+        <div class="footer-bottom-container">
+            <img src="https://66.media.tumblr.com/37ce0fe6cce65d223f5d1ec331903c53/aa0acc77898d1341-c3/s400x600/690474751c124bbe2a14783b7271b15315b37360.png"
+                alt="white cyberpunk logo" class="foot-bottom-logo">
+            <div>
+                <button class="cybr-btn">
+                    <a href="https://github.com/RyanSyen" target="_blank">By _Ryan_
+                        <span aria-hidden class="cybr-btn__glitch">By _Ryan_</span></a>
 
+                </button>
+            </div>
+        </div>
     </footer>
 </body>
 
